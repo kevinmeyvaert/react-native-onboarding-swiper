@@ -124,19 +124,16 @@ Pagination.propTypes = {
 const styles = {
   container: {
     paddingHorizontal: 0,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: 'column-reverse',
     alignItems: 'center',
+    paddingHorizontal: 28,
   },
   buttonLeft: {
-    width: 200,
     flexShrink: 1,
-    alignItems: 'flex-start',
   },
   buttonRight: {
-    width: 200,
-    flexShrink: 1,
-    alignItems: 'flex-end',
+    width: '100%',
+    marginBottom: 28,
   },
   dots: {
     flexShrink: 0,
