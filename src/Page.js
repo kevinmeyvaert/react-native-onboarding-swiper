@@ -79,21 +79,16 @@ const styles = {
     alignItems: 'center',
     justifyContent: potrait ? 'center' : 'flex-start',
     paddingTop: potrait ? 0 : 10,
+    marginTop: -40,
   },
   imageContainer: {
     flex: 0,
-    paddingBottom: potrait ? 60 : 10,
+    paddingBottom: potrait ? 20 : 10,
     alignItems: 'center',
     width: '100%',
   },
   padding: {
     paddingHorizontal: 10,
-  },
-  title: {
-    textAlign: 'center',
-    fontSize: 26,
-    color: '#fff',
-    paddingBottom: 15,
   },
   titleLight: {
     color: '#000',
